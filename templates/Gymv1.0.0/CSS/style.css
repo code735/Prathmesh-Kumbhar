@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --yellow:#fcff18;
+    --black:black;
+    --white:white;
+    --grey:grey;
+    --gray:gray;
+    --round-icon:#f6f9fa;
+    --font1:'PT Sans', sans-serif;
+}
+*{
+    font-family:var(--font1);
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    overflow: hidden;
+}
+/*Header*/
+header{
+    z-index: 1;
+}
+.nav-addr{
+    background-color: var(--yellow);
+    font-size: 1.1em;
+}
+
+.navlinks a{
+    font-weight: bold;
+    color: var(--black);
+    text-transform: capitalize;
+    font-size: 1.2em;
+    transition: .5s;
+}
+
+.navlinks a:hover{
+    background-color: var(--yellow);
+    padding:0px 10px;
+    color: var(--black);
+}
+
+.nav-addr i{
+    font-size:2.1em;
+    color: var(--gray);
+}
+
+.mob-bar{
+    background-color: var(--yellow);
+}
+.mob-bar i{
+    font-size: 2.2em;
+    color: var(--black);
+}
+
+#mob-nav ul{
+    background-color: var(--yellow);
+    height: 88vh;
+    padding-left: 0;
+}
+
+#mob-nav a{
+    text-transform: capitalize;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.2em; 
+    border-bottom: 2px solid black;
+    padding:0 15px;
+    padding-bottom: 12px;
+}
+
+/*Hero Section*/
+.hero-sec{
+    background-image: url('../IMAGES/background/hero-bg.jpg');
+}
+.hero-sec h1{
+    font-size: 3em;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.hero-sec span{
+    font-size: 1em;
+    color: var(--yellow);
+}
+
+.hero-sec a{
+    color: var(--black);
+    font-size: 1.1em;
+    font-weight: 800;
+    background-color: var(--yellow);
+    border:2px solid;
+    border-color: var(--yellow);
+    transition: .5s;
+}
+
+.hero-sec a:hover{
+    background-color: transparent;
+    color: var(--yellow);
+    border:2px solid;
+    border-color: var(--yellow);
+}
+
+/*Workout*/
+.workout .container .d-flex h2{
+    font-size: 2.7em;
+    font-weight: bold;
+}
+.wo-hl{
+    font-size: 1em;
+    background-color:var(--yellow);
+}
+.wi-img{
+    width: 90px;
+    background-color: var(--round-icon);
+    border-radius: 50%;
+}
+.workout-item h3{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.wi-img{
+    margin: 0 auto;
+}
+
+/*Offer section*/
+.offer{
+    background-image: url('../IMAGES/background/add-bg.jpg');
+    background-position-x: 23%;
+    background-size:cover;
+}
+.offer li img{
+    width: 32px;
+    margin-right: 18px;
+}
+
+.offer .col-12 h2{
+    font-size: 3.8em;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.offer .col-12 li{
+    font-size: 1.1em;
+    color: var(--white);
+    margin: 15px 0;
+}
+
+.offer .col-12 a{
+    background-color:var(--yellow);
+    color: var(--black);
+    font-weight: 600;
+    font-size: 1.2em;
+    border:2px solid;
+    border-color: var(--yellow);
+    transition: .5s;
+}
+
+.offer .col-12 a:hover{
+    border:2px solid;
+    border-color: var(--yellow);
+    background-color: transparent;
+    color: var(--yellow);
+}
+
+/*Feature*/
+.feature{
+    background-color: var(--round-icon);
+}
+.feature h1{
+    font-weight: bold;
+    background-color: var(--yellow);
+    width: 48%;
+    margin: 0 auto;
+}
+
+/*Trainer*/
+.trainer-heading h3{
+    font-size: 2.7em;
+    font-weight: bold;
+}
+
+.trainer .col-12{
+    text-align: center;
+}
+.trainer .col-12 h3{
+    font-weight: bold;
+    padding:10px 0;
+}
+.trainer-heading h3 span{
+    font-size: 1em;
+    font-weight: bold;
+    background-color:var(--yellow);
+}
+.trainer .container img{
+    border-radius: 50%;
+}
+
+/*BMI*/
+.bmi-bg{
+    background-image: url('../IMAGES/background/bmi-bg.jpg');
+}
+.bmi .col-12:nth-child(2){
+    background-color:var(--round-icon);
+}
+
+.bmi .col-12 h2{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+.bmi .col-12 h2 span{
+    font-size: 1em;
+    font-weight: bold;
+    background-color:var(--yellow);
+}
+.bmi form .col-6 input, .bmi form button{
+    padding: 12px;
+    width: 100%;
+    border: none;
+}
+.bmi form button{
+    background-color: var(--yellow);
+    font-size: 1.1em;
+    font-weight: bold;
+    border:2px solid;
+    border-color: var(--yellow);
+    transition: .5s;
+}
+
+.bmi form button:hover{
+    background-color: transparent;
+    color: var(--yellow);
+}
+
+.form-txt{
+    font-style: italic;
+    color: var(--white);
+}
+
+/*Newsletter*/
+.newsletter{
+    background-image: url('../IMAGES/background/newsletter-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.newsletter h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--white);
+}
+.newsletter h1 span{
+    font-size: 1em;
+    color: var(--black);
+    background-color: var(--yellow);
+}
+.newsletter .input-group input{
+    border: none;
+}
+.newsletter .input-group span{
+    font-size: 1.5em;
+    border: none !important;
+    font-weight: bold;
+    background-color:var(--yellow);
+    }
+
+.newsletter .input-group span a{
+    color: var(--black);
+    transition: .5s;
+}
+
+
+/*Footer*/
+footer{
+    background-image: url('../IMAGES/background/hero-bg.jpg');
+    color: var(--white);
+}
+
+footer .col-12{
+    padding:30px 0;
+}
+
+footer .col-12 h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer .col-12 span{
+    color:var(--gray);
+}
+
+.f-s-icons{
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+.f-s-icons span i{
+    color: var(--yellow);
+    font-size: 1.5em;
+}
+
+footer .navlinks li a{
+    color: var(--white);
+}
+.copyright-nav p{
+    color: var(--grey);
+    font-weight: bold;
+}
+.copyright-nav span{
+    color: var(--white);
+}
+/****** 7 6 8 p x  d e v i c e s *******/
+@media(min-width:768px){
+    .hero-sec h1{
+        font-size: 6em;
+        font-weight: 800;
+        color: var(--white);
+    }
+}

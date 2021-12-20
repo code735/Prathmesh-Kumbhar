@@ -1,0 +1,365 @@
+:root{
+    --white:white;
+    --black:black;
+    --tan:#b99365;
+    --grey:#ccc;
+    --gray:gray;
+    --footer-grey:#f2f2f2;
+    --room-dark:#00000083;
+    --font1:'Playfair Display', serif;
+    --font2:'Rubik', sans-serif;
+}
+
+*{
+    font-family: var(--font2);
+    font-size: 16px;
+}
+a{
+    text-decoration: none !important;
+}
+.wrapper{
+    overflow: hidden;
+}
+/*Header*/
+.desknav li{
+    list-style: none;
+    border: none !important;
+}
+
+header a{
+    color: var(--white) !important;
+}
+.logo a{
+    font-size:1.5em;
+    text-transform: uppercase;
+}
+
+.navlinks a{
+    text-transform: capitalize;
+    font-size: 1.2em;
+    transition: .5s;
+}
+
+.navlinks a:hover{
+    color: var(--black) !important;
+}
+
+.navlinks li:nth-child(6) a{
+    border: 2px solid white;
+    padding: 15px;
+}
+.mob-bars a i{
+    font-size: 2em;
+}
+
+.mob-bars li{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#mob-bars-collapse li:nth-child(1),li:nth-child(2),li:nth-child(3),li:nth-child(4),li:nth-child(5){
+    border-bottom: 1px solid white;
+}
+#mob-bars-collapse{
+    background-color:tan;
+}
+/*Hero Section*/
+.hero-section{
+    background-image: url(../images/background/hero-sec-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-sec-content{
+    background-color: #00000024;
+    color: var(--white);
+}
+
+.hero-sec-content h3{
+    font-size: 2.5em;
+    font-family: var(--font1);
+    text-transform: capitalize;
+}
+
+.hero-sec-content p{
+    font-size: 1.2em;
+}
+
+.hero-sec-content a{
+    background-color:var(--tan);
+    font-size: 1em;
+    color: var(--white);
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.hero-sec-content a:hover{
+    background-color: var(--white);
+    color:var(--black);
+}
+
+/*Enjoy Section*/
+.enjoy-text span{
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: var(--grey) !important;
+}
+
+.enjoy-text h1{
+    font-family: var(--font1);
+    font-size: 2em;
+}
+
+.enjoy-text p{
+    font-size: 1.2em;
+    color: var(--gray);
+    font-weight: 100;
+}
+
+.enjoy-text a{
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--tan);
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    transition: .5s;
+}
+
+.enjoy-text a:hover{
+    background-color: var(--black);
+    color:var(--white);
+}
+
+.feature-room a{
+    transition: .5s;
+    border:2px solid;
+    border-color:var(--tan);
+}
+.feature-room a:hover{
+    background-color: var(--white);
+    border: 2px solid;
+    border-color: var(--black);
+    color:var(--black);
+}
+
+.room1{
+    background-image: url(../images/background/room1.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    transition: .5s;
+    background-size: 150%;
+}
+
+.room1:hover{
+    background-size: 170%;
+}
+
+.room2{
+    background-image: 
+    linear-gradient(45deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.58)), url(../images/background/room2.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 300%;
+    transition: .5s;
+}
+.room2:hover{
+    background-size: 350%;
+}
+.room3{
+    background-image: 
+    linear-gradient(45deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.58)), url(../images/background/room3.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 150%;
+    transition: .5s;
+    background-size: 300%;
+    transition: .5s;
+}
+.room3:hover{
+    background-size: 350%;
+}
+.room1 span{
+    display: block;
+    padding-top: 68%;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background-color: var(--room-dark);
+    color: var(--white);
+}
+
+.room1 span i{
+    font-size: 0.8em;
+    display: inline;
+    margin: 0 .2em;
+}
+.feature-room a{
+    padding: 14px 12px;
+    background-color: var(--tan);
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+.feature-room figcaption{
+    padding: 0 19px;
+}
+
+.feature-room figcaption h2{
+    font-family: var(--font1);
+    text-transform: capitalize;
+    color: var(--tan);
+}
+
+.room2 span{
+    display: inline-block;
+    padding-top: 50%;
+    padding-left: 12px;
+    padding-bottom: 19px;
+    color: white;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.room2 i{
+    font-size: 0.8em;
+    display: inline;
+    margin: 0.2em;
+}
+
+
+.room3 span{
+    display: inline-block;
+    padding-top: 50%;
+    padding-left: 12px;
+    padding-bottom: 19px;
+    color: white;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.room3 i{
+    font-size: 0.8em;
+    display: inline;
+    margin: 0.2em;
+}
+.feature-room{
+    font-size: .8em;
+}
+.feature-room h3{
+    font-family: var(--font1);
+    font-size: 3em;
+}
+
+/*Video Section*/
+.video{
+    background-image: url(../images/background/video-sec.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color:var(--white);
+}
+.video h3{
+    font-size: 3em;
+    font-family: var(--font1);
+}
+.video p{
+    font-size: 1em;
+}
+.video i{
+    font-size: 5.5em;
+    color: var(--white);
+}
+
+
+/*Recent Blog*/
+.blog-head span{
+    font-size:1em;
+    color: var(--grey);
+}
+
+.blog-head h3{
+    font-size: 2.5em;
+    font-family: var(--font1);
+}
+
+.recent-blog figure h3{
+    color: var(--tan);
+    font-size: 1.8em;
+    text-transform: capitalize;
+    font-family: var(--font1);
+    padding:20px 0;
+}
+.recent-blog figure p{
+    color: var(--gray);
+    font-size: 1em;
+    padding: 10px 0;
+}
+.recent-blog figure span{
+    color: var(--grey);
+    text-transform: uppercase;
+    font-size: .9em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    letter-spacing: .2em;
+}
+.recent-blog figcaption{
+    padding:50px 0;
+}
+.recent-blog figcaption a{
+    border: 2px solid;
+    color: var(--tan);
+    border-color: var(--tan);
+    text-transform: uppercase;
+    font-size: .9em;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.recent-blog figcaption a:hover{
+    background-color: var(--tan);
+    color: var(--white);
+}
+/*Footer*/
+footer{
+    background-color: var(--footer-grey);
+}
+footer h5{
+    font-size: .9em;
+    text-transform: uppercase;
+    color: var(--grey);
+    letter-spacing: .2em;
+    font-weight: 300;
+}
+footer .row p{
+    padding:10 0px;
+}
+footer span i{
+    padding:10px;
+}
+.email-btn input{
+    border:none;
+}
+.email-btn{
+    border:1px solid black;
+}
+.copyright p{
+    color: var(--grey);
+    font-size: .9em;
+}
+/********** 7 6 8 p x  d e v i c e s*******/
+
+@media (min-width:768px){
+    /*Video Section*/
+    .video .container{
+        width: 50%;
+    }
+
+    /*Feature Room*/
+    .room-bg span{
+        padding-top: 100%;
+    }
+}
