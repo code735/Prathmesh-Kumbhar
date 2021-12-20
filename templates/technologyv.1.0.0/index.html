@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PHONO</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- On Scroll Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    </head>
+    <body>
+        
+        <!-- Wrapper -->
+        <div class="wrapper">
+                <!--Header-->
+                    <header class="position-sticky top-0">
+                        <!--Dektop Nav-->
+                        <div class="d-none d-lg-flex justify-content-evenly navbar align-items-center px-5">
+                            <div class="navlogo">
+                                <img src="images/illustrations/logo.jpg" alt="">
+                            </div>
+                            <div class="navcontent d-flex justify-content-end navbar align-items-center w-75">
+                                <div class="navlink d-flex justify-content-between navbar align-items-center">
+                                    <a href="#">home</a>
+                                    <a href="#" class="">collection<i class="bi bi-caret-down-fill ps-1"></i></a>
+                                    <a href="#">shop</a>
+                                    <a href="#">android</a>
+                                    <a href="#">accessories</a>
+                                    <a href="#">memory & storage</a>
+                                    <div class="pages-collapse-wrap position-relative">
+                                        <a href="#page-collapse" data-bs-toggle="collapse">pages<i class="bi bi-caret-down-fill ps-1"></i></a>
+                                        <div class="collapse col-3 collapse-vertical position-absolute" id="page-collapse">
+                                            <ul class="p-0">
+                                                <li><a href="#">about us</a></li>
+                                                <li><a href="#">contact us</a></li>
+                                                <li><a href="#">blog</a></li>
+                                                <li><a href="#">faq's</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="navicons d-flex justify-content-evenly navbar align-items-center">
+                                    <a href="#"><i class="bi bi-person-fill"></i></a>
+                                    <a href="#"><i class="bi bi-cart-fill"></i></a>
+                                    <a href="#"><i class="bi bi-search"></i></a>
+                                    <a href="#">usd<i class="bi bi-caret-down-fill ps-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Mobile nav -->
+                        <div class="mob-nav d-flex d-lg-none justify-content-between align-items-center px-3">
+                            <div class="mobnavlogo">
+                                <img src="images/illustrations/logo.jpg" alt="">
+                            </div>
+                            <div class="mobnavlinks">
+                                <a href="#mobbar" data-bs-toggle="collapse"><i class="bi bi-list"></i></a>
+                                <div class="collapse collapse-vertical" id="mobbar">
+                                    <div class="position-absolute vw-100 vh-100 end-0 d-flex flex-column bg-white">
+                                            <a href="#">home</a>
+                                        <a href="#" class="">collection<i class="bi bi-caret-down-fill ps-1"></i></a>
+                                        <a href="#">shop</a>
+                                        <a href="#">android</a>
+                                        <a href="#">accessories</a>
+                                        <a href="#">memory & storage</a>
+                                        <div class="pages-collapse-wrap position-relative">
+                                            <a href="#page-collapse" data-bs-toggle="collapse">pages<i class="bi bi-caret-down-fill ps-1"></i></a>
+                                            <div class="collapse col-3 collapse-vertical position-absolute" id="page-collapse">
+                                                <ul class="p-0">
+                                                    <li><a href="#">about us</a></li>
+                                                    <li><a href="#">contact us</a></li>
+                                                    <li><a href="#">blog</a></li>
+                                                    <li><a href="#">faq's</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+
+                    <!--Hero Section-->
+                    <section class="hero-sec ">
+                        <div class="carousel carousel-fade slide" id="main" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item text-center active hero1">
+                                    <p>zania black edition</p>
+                                    <h3>curvy bevel dual audio</h3>
+                                    <a href="#" class="rounded-pill">shop now</a>
+                                </div>
+                                <div class="carousel-item text-center hero2">
+                                    <p>4k resolution</p>
+                                    <h3>exclusive steel frame</h3>
+                                    <a href="#" class="rounded-pill">buy now</a>
+                                </div>
+                                <div class="carousel-item text-center hero3">
+                                    <p>delta zertiga processor</p>
+                                    <h3>full screen display</h3>
+                                    <a href="#" class="rounded-pill">shop now</a>
+                                </div>
+                            </div>
+
+                            <a href="" class="carousel-control-prev" data-bs-target="#main" data-bs-slide="prev" >
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a href="" class="carousel-control-next" data-bs-target="#main" data-bs-slide="next" >
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>      
+                    </section>
+
+                    <!--Benifits-->
+                    <section class="benifits py-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center py-3">
+                                    <div class="benifits-img" data-aos="fade-left" data-aos-duration="2000">
+                                        <img src="images/illustrations/free-deliver-icon-removebg-preview.png" alt="">
+                                    </div>
+                                    <div class="benifit-text" data-aos="fade-left" data-aos-duration="2000">
+                                        <h3>Free Shipping</h3>
+                                        <p>For orders over $50</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center py-3">
+                                    <div class="benifits-img" data-aos="fade-left" data-aos-duration="2000">
+                                        <img src="images/illustrations/offers-icon-removebg-preview.png" alt="">
+                                    </div>
+                                    <div class="benifit-text" data-aos="fade-left" data-aos-duration="2000">
+                                        <h3>Official Discounts</h3>
+                                        <p>Save Big on next product</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center py-3">
+                                    <div class="benifits-img" data-aos="fade-left" data-aos-duration="2000">
+                                        <img src="images/illustrations/support-icon-removebg-preview.png" alt="">
+                                    </div>
+                                    <div class="benifit-text" data-aos="fade-left" data-aos-duration="2000">
+                                        <h3>24/7 Helpline</h3>
+                                        <p>Care till the end</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Features -->
+                    <section class="features py-5">
+                        <div class="container">
+                            <div class="feature-head text-center py-3">
+                                <h2>What makes the Essential different?</h2>
+                                <p>Experience High Performance and Secure</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 camera">
+                                    <img src="images/illustrations/feature1.jpg" data-aos="flip-right" data-aos-duration="2000" alt="">
+                                    <h3>Dual Camera</h3>
+                                    <p>Tristique senectus et netus et malesuada ant reiet fames.</p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 processor">
+                                    <img src="images/illustrations/feature2.jpg" data-aos="flip-right" data-aos-duration="2000" alt="">
+                                    <h3>Intelligent Processing</h3>
+                                    <p>Consequat ac habit amet asse felis donec et odio pellentesque diam.</p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 ram">
+                                    <img src="images/illustrations/feature3.jpg" data-aos="flip-right" data-aos-duration="2000" alt="">
+                                    <h3>8GB DDR5 RAM</h3>
+                                    <p>Dictum varius duis at consectetur lorem donec massa sap faucibus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Selection -->
+                    <section class="selection">
+                        <div class="selection-head text-center">
+                            <div class="container">
+                                <h3>FIND YOUR PERFECT MATCH</h3>
+                                <p>explore and find right one</p>
+                            </div>
+
+                            <div class="container-fluid">
+                                <div class="row py-3">
+                                    <div class="col-12 col-sm-6 col-md-4 pb-4" data-aos="fade-right" data-aos-duration="2000"><img src="images/illustrations/match1.jpg" alt=""></div>
+                                    <div class="col-12 col-sm-6 col-md-4 pb-4" data-aos="fade-right" data-aos-duration="2000"><img src="images/illustrations/match2.jpg" alt=""></div>
+                                    <div class="col-12 col-sm-6 col-md-4 pb-4" data-aos="fade-right" data-aos-duration="2000"><img src="images/illustrations/match3.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Specification -->
+                    <section class="specification py-5">
+                        <div class="specification-head text-center">
+                            <h3>possibilities. performance. power.</h3>
+                            <p>faster processing with less power</p>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-3 cpu">
+                                    <div class="specification-content" data-aos="fade-up" data-aos-duration="2000">
+                                        <div class="d-none d-md-flex flex-column justify-content-top align-items-center">
+                                            <p></p>
+                                        </div>
+                                        <img src="images/illustrations/cpu.jpg" alt="">
+                                        <h3>Scorpion Processor</h3>
+                                        <p>Tristique senectus et netus et malesuada fames ac turpis.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 sim" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="specification-content">
+                                        <div class="d-none d-md-flex  flex-column justify-content-top align-items-center">
+                                            <p></p>
+                                        </div>
+                                        <img src="images/illustrations/sim.jpg" alt="">
+                                        <h3>dual sim cards</h3>
+                                        <p>Tristique senectus et netus et malesuada fames ac turpis.</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 cam48mp" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="specification-content">
+                                        <div class="d-none d-md-flex  flex-column justify-content-top align-items-center">
+                                            <p></p>
+                                        </div>
+                                        <img src="images/illustrations/cam.jpg" alt="">
+                                        <h3>48 mp camera</h3>
+                                        <p>Tristique senectus et netus et malesuada fames ac turpis.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 battery" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="specification-content">
+                                        <div class="d-none d-md-flex  flex-column justify-content-top align-items-center">
+                                            <p></p>
+                                        </div>
+                                        <img src="images/illustrations/battery.jpg" alt="">
+                                        <h3>48 hrs backup</h3>
+                                        <p>Tristique senectus et netus et malesuada fames ac turpis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!-- Testimonial -->
+                    <section class="testimonial text-center py-5">
+                        <div class="container py-5">
+                            <p>JENNIFER F., CASPER CUSTOMER</p>
+                             <blockquote class="py-2"><h1>"Unbeatable price, and it’s super comfortable"</h1></blockquote>
+                             <a href="#" class="rounded-pill">view more</a>
+                        </div>
+                    </section>
+
+                    <!-- Expectation -->
+                    <section class="expectation py-5">
+                        <div class="container">
+                            <div class="expectation-head text-center">
+                                <h2>Raise Your Expectations</h2>
+                                <p>refined viewing experience</p>
+                            </div>
+
+                            <div class="row align-items-center py-5">
+                                <div class="col-12 col-md-6 ps-3">
+                                    <h2 class="pb-5">42 Front Camera For Perfect Shot</h2>
+                                    <p>Porem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.</p>
+                                    <p>Diam vulputate ut pharetra sit. Elit ut aliquam purus sit amet luctus venenatis lectus. Lorem dolor sed viverra ipsum nunc aliquet. Ut consequat semper viverra nam libero. Velit ut tortor aremn.</p>
+                                </div>
+                                <div class="col-12 col-md-6 expectation2">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- entertainment -->
+                    <section class="entertainment pt-5">
+                        <div class="container">
+                            <div class="entertainment-head text-center py-5">
+                                <h2>Lose yourself in entertainment</h2>
+                                <p>Spend less enjoy more</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="2000">
+                                    <div class="entertainment-cards">
+                                        <span class="rounded-circle">1</span>
+                                        <h2>Triple Camera</h2>
+                                        <p>Duis at tellus at urna condimentum mattis pellentesque id nibh. Elit scelerisque mauris pellentesque pulvinar. Nunc aliquet bibendum enim facilisis gravida.</p>
+                                        <a href="#" class="rounded-pill">view more</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="2000">
+                                    <div class="entertainment-cards">
+                                        <span class="rounded-circle">2</span>
+                                        <h2>ULTRA GAME MODE</h2>
+                                        <p>Urna et pharetra pharetra massa massa ultricies mi. Scelerisque varius morbi enim nunc faucibus a pellentesque. Purus sit amet volutpat consequat mauris.</p>
+                                        <a href="#" class="rounded-pill">view more</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="2000">
+                                    <div class="entertainment-cards">
+                                        <span class="rounded-circle">3</span>
+                                        <h2>Super AMOLED Display</h2>
+                                        <p>Urna neque viverra justo nec ultrices dui sapien eget mi. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Neque sodales ut etiam.</p>
+                                        <a href="#" class="rounded-pill">view more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Qualities -->
+                    <section class="qualities text-center py-5">
+                        <div class="container py-5">
+                            <div class="qualities-head">
+                                <h2>Innovative qualities & features</h2>
+                                <p>Show yours to the world</p>
+                            </div>
+
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4">
+                                    <div class="quality-card d-flex " data-aos="fade-left" data-aos-duration="2000">
+                                        <div class="quality-card-text">
+                                            <h3>Intelligent Processor</h3>
+                                            <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
+                                        </div>
+                                        <div class="quality-card-img">
+                                            <img src="images/illustrations/quality-card1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="quality-card d-flex" data-aos="fade-left" data-aos-duration="2000">
+                                        <div class="quality-card-text">
+                                            <h3>HD Surround Audio</h3>
+                                            <p>Sagittis eu volutpat odio ante ut diam quam metus dictfacilisis mauris sit am.</p>
+                                        </div>
+                                        <div class="quality-card-img">
+                                            <img src="images/illustrations/quality-card3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="quality-card d-flex" data-aos="fade-left" data-aos-duration="2000">
+                                        <div class="quality-card-text">
+                                            <h3>Stylish Bevel Edges</h3>
+                                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid</p>
+                                        </div>
+                                        <div class="quality-card-img">
+                                            <img src="images/illustrations/quality-card2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <img src="images/illustrations/quality-center-img.jpg" alt="">
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="quality-card d-flex " data-aos="fade-right" data-aos-duration="2000">
+                                        <div class="quality-card-img img-2">
+                                            <img src="images/illustrations/quality-card4.jpg" alt="">
+                                        </div>
+                                        <div class="quality-card-text1">
+                                            <h3>Intelligent Processor</h3>
+                                            <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
+                                        </div>
+                                    </div>
+                                    <div class="quality-card d-flex" data-aos="fade-right" data-aos-duration="2000">
+                                        <div class="quality-card-img img-2">
+                                            <img src="images/illustrations/quality-card5.jpg" alt="">
+                                        </div>
+                                        <div class="quality-card-text1">
+                                            <h3>HD Surround Audio</h3>
+                                            <p>Sagittis eu volutpat odio ante ut diam quam metus dictfacilisis mauris sit am.</p>
+                                        </div>
+                                    </div>
+                                    <div class="quality-card d-flex" data-aos="fade-right" data-aos-duration="2000">
+                                        <div class="quality-card-img img-2">
+                                            <img src="images/illustrations/quality-card6.jpg" alt="">
+                                        </div>
+                                        <div class="quality-card-text1">
+                                            <h3>Stylish Bevel Edges</h3>
+                                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- New Arrivals -->
+                    <section class="arrivals text-center py-5">
+                        <div class="arrival-head">
+                            <h2>New arrivals</h2>
+                            <p>Find the perfect phone for you</p>
+                        </div>
+                        <div class="container py-4">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="phone-img">
+                                        <figure>
+                                            <img src="images/illustrations/p1.jpg" alt="">
+                                            <figcaption>
+                                                <h3>spectronic xr</h3>
+                                                <p>$101.00</p>
+                                                <span><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="phone-img">
+                                        <figure>
+                                            <img src="images/illustrations/p2.jpg" alt="">
+                                            <figcaption>
+                                                <h3>techno 10 lite</h3>
+                                                <p>$201.00</p>
+                                                <span><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="phone-img">
+                                        <figure>
+                                            <img src="images/illustrations/p3.jpg" alt="">
+                                            <figcaption>
+                                                <h3>spots 8 lite</h3>
+                                                <p>$301.00</p>
+                                                <span><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="phone-img">
+                                        <figure>
+                                            <img src="images/illustrations/p4.jpg" alt="">
+                                            <figcaption>
+                                                <h3>po v40 thinq</h3>
+                                                <p>$701.00</p>
+                                                <span><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                <!-- Gallary -->
+                <section class="gallary">
+                    <div class="container-fluid">
+                        <div class="row vh-100">
+                            <div class="col-6 col-lg-4 gallary-1">
+                                <div class="row h-50">
+                                    <div class="col-12">
+                                         
+                                    </div>
+                                    <div class="col-12">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4 gallary-2">
+                                <div class="row h-50">
+                                    <div class="col-12">
+                                        
+                                    </div>
+                                    <div class="col-12">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 gallary-3">
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- Design -->
+                <section class="design">
+                    <div class="container-fluid py-5">
+                        <div class="design-head text-center text-uppercase">
+                            <h3>See why customers love the Our Mobiles</h3>
+                            <p>Designed to perfection</p>
+                        </div>
+
+                        <div class="row align-items-center py-5">
+                            <div class="col-12 col-md-6" data-aos="flip-right" data-aos-duration="2000">
+                                <img src="images/illustrations/design-img-removebg-preview.png" alt="">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="accordion" id="parent">
+
+                                    <div class="accordion-item bg-transparent">
+                                        <div class="accordion-header">
+                                         <button type="button" class="accordion-button bg-transparent text-white" data-bs-toggle="collapse" data-bs-target="#one">New Gradient Color Finishes</button>
+                                        </div>
+                                        <div class="accordion-collapse collapse show" data-bs-parent="#parent" id="one">
+                                         <div class="accordion-body">
+                                             <p>Rierem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.</p>
+                                         </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent">
+                                     <div class="accordion-header">
+                                            <button type="button" class="accordion-button bg-transparent text-white" data-bs-toggle="collapse" data-bs-target="#two">Four-sided curved ceramic body</button>
+                                            </div>
+                                            <div class="accordion-collapse collapse" data-bs-parent="#parent" id="two">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent">
+                                        <div class="accordion-header">
+                                            <button type="button" class="accordion-button bg-transparent text-white" data-bs-toggle="collapse" data-bs-target="#three">4000mAh high-capacity battery</button>
+                                           </div>
+                                           <div class="accordion-collapse collapse" data-bs-parent="#parent" id="three">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.</p>
+                                            </div>
+                                        </div>
+                                       </div>
+
+                                    <div class="accordion-item bg-transparent">
+                                        <div class="accordion-header">
+                                            <button type="button" class="accordion-button bg-transparent text-white" data-bs-toggle="collapse" data-bs-target="#four">Fully hidden camera lens</button>
+                                           </div>
+                                           <div class="accordion-collapse collapse" data-bs-parent="#parent" id="four">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Support -->
+                <section class="support py-5">
+                    <div class="container">
+                        <div class="support-head text-center">
+                            <h3>Welcome to Phono support. We're here to help.</h3>
+                            <p>ALWAYS ON YOUR SIDE WHEN YOU NEED HELP</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-md-6 py-3" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="support-card text-center position-relative">
+                                    <div class="support-content d-flex px-lg-5 py-5 rounded justify-content-center">
+                                        <div class="support-icon">
+                                            <img src="images/illustrations/support1.jpg" alt="">
+                                        </div>
+                                        <div class="support-text text-start">
+                                            <p class="m-0">HAVE ANY DOUBTS?</p>
+                                            <h3>CAll us now</h3>
+                                            <span>
+                                                This Number is Toll Free
+                                                <br>
+                                                0000 - 123 - 456789
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="position-absolute">view more</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 py-3" data-aos="fade-right" data-aos-duration="2000">
+                                <div class="support-card text-center position-relative">
+                                    <div class="support-content d-flex px-lg-5 py-5 rounded justify-content-center">
+                                        <div class="support-icon">
+                                            <img src="images/illustrations/support2.jpg" alt="">
+                                        </div>
+                                        <div class="support-text text-start">
+                                            <p class="m-0">WANNA TALK TO US?</p>
+                                            <h3>LIVE CHAT NOW</h3>
+                                            <span>
+                                                Nullam quis ante. Etiam sit amet orci
+                                                <br>
+                                                eget eros aucibus tincidunt.
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="position-absolute">view more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer>
+                    <div class="container py-5">
+                        <div class="footer-content text-center">
+                            <h5>Subscribe Now</h5>
+                            <h2 class="py-3">Get our updates always fast</h2>
+                            <h4>Your personal data will always be safe</h4>
+                            <div class="input-group text-center justify-content-between mx-auto px-3 py-3 py-lg-1 my-5 rounded-pill" data-aos="flip-right" data-aos-duration="2000">
+                                <input type="text" class="rounded-pill d-block" placeholder="your email address">
+                                <a href="#" class="d-block rounded-circle"><i class="bi bi-chevron-right"></i></a>
+                            </div>
+                            <div class="footer-nav text-center mx-auto">
+                                <ul class="d-flex flex-column flex-sm-row justify-content-between p-0">
+                                    <li><a href="#">search</a></li>
+                                    <li><a href="#">help</a></li>
+                                    <li><a href="#">information</a></li>
+                                    <li><a href="#">privacy policy</a></li>
+                                    <li><a href="#">shipping details</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <div class="copyright-bottom pt-3">
+                    <p>This template is made by &copy; Prathmesh Kumbhar</p>
+                </div>
+
+        </div> <!-- Wrapper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+    </body>
+</html>
